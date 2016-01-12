@@ -6,10 +6,43 @@
     <script src="js/jquery-1.12.0.js"></script>
     <script src="js/scripts.js"></script>
     <meta charset="utf-8">
-    <title>
+    <title>Personal Survey
     </title>
   </head>
   <body>
+    <div class="container">
+    <h1>Tell us a bit about your stuff!</h1>
+     <div id="blanks">
+       <form>
+         <div class="form-group">
+           <label for="person1">Tell us the story of your life. Start from the beginning. Leave nothing out.</label>
+           <textarea id="person1" class="form-control" rows="20"></textarea>
+         </div>
+         <div class="form-group">
+           <label for="person2">What is your quest?</label>
+           <input id="person2" class="form-control" type="text">
+         </div>
 
+        <!-- radio button group-->
+         <div class="form-group">
+           <label for="animal">What is your favorite color?</label>
+           <input id="animal" class="form-control" type="text">
+         </div>
+
+        <!--  crazy Ivan -->
+         <div class="form-group">
+           <label for="exclamation">what is the air velocity of an unladen swallow?</label>
+           <input id="exclamation" class="form-control" type="radio">
+         </div>
+         <div class="form-group">
+           <label for="verb">What sports do you enjoy?</label>
+           <input id="verb" class="form-control" type="text">
+         </div>
+
+        <button type="submit" class="btn">Show me the story!</button>
+        </form>
+
+
+    </div>
   </body>
 </html>
